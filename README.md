@@ -8,7 +8,7 @@ This project includes a data management system developed with Flutter and uses A
 
 - **BaseCacheManager**: Defines all data management operations.
 - **EncryptedCacheManager**: Data management class that includes encryption operations.
-- **StandardCacheManagerImpl**: Standard data management class that does not perform encryption.
+- **StandardCacheManager**: Standard data management class that does not perform encryption.
 - **AESEncryptionService**: Service class that performs AES encryption and decryption operations.
 - **SecureEncryptionKeyManager**: Class that securely manages the encryption key.
 - **BaseModel**: Base class for data models.
