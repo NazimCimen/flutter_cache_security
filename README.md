@@ -21,7 +21,7 @@ This project includes a data management system developed with Flutter and uses A
 - **encrypt**: Package for encryption operations.
 
 ## Contributing
-- **If you want to contribute, please create an issue or send a pull request. I welcome all contributions!
+-  If you want to contribute, please create an issue or send a pull request. I welcome all contributions!
 
 ## Installation
 
