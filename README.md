@@ -1,5 +1,3 @@
-
-```markdown
 # Cache Security Flutter Project
 
 ## About the Project
