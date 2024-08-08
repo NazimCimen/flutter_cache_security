@@ -50,7 +50,7 @@ class _NewWidgetState extends State<NewWidget> {
   void initState() {
     WidgetsBinding.instance.addPostFrameCallback(
       (_) async {
-        _cacheManager = StandartCacheManagerImpl(
+        _cacheManager = StandartCacheManager(
           boxName: 'boxName',
           keyName: 'keyName',
         );

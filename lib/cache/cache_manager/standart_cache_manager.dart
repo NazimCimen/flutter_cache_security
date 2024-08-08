@@ -2,11 +2,11 @@ import 'package:cache_security/cache/cache_manager/base_cache_manager.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 /// IT IS A STANDART CACHE MANAGEMENT CLASS THAT DOES NOT PERFORM ENCRYPTION.IT EXTENDS BaseCacheManager<T>,
-class StandartCacheManagerImpl<T> extends BaseCacheManager<T> {
+class StandartCacheManager<T> extends BaseCacheManager<T> {
   final String boxName;
   final String keyName;
 
-  StandartCacheManagerImpl({
+  StandartCacheManager({
     required this.boxName,
     required this.keyName,
   });
